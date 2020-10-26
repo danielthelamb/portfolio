@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+body {
+    font-family: futura-pt;
+    width: 90%;
+}
+
+header {
+    width: 100%;
+    text-align: left;
+}
+
+#title {
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+header > nav {
+    font-size: 14px;
+    float: right;
+    padding-right: 5%;
+}
+
+main {
+    text-align: center;    
+}
+
+footer {
+    float: right;
+    padding-right: 5%;
+}
