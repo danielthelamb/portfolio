@@ -16,34 +16,39 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    color: black;
-}
-
 .active {
     color: black;
 }
 
-li a:visited {
+li a:hover:not(.active) {
+    color: black;
+}
+
+li a:visited:not(.active) {
     text-decoration: none;
     color: gray;
 }
 
+
+
+
+
+
 body {
     font-family: futura-pt;
-    width: 80%;
+    width: 100%;
 }
 
 header {
     width: 100%;
     text-align: left;
     padding-top: 50px;
-    padding-left: 10%;
 }
 
-#title {
-    display: inline-block;
+header > p {
+    font-family: futura-pt;
     font-size: 40px;
+    /*display: inline-block;*/
 }
 
 header > nav {
@@ -54,27 +59,33 @@ header > nav {
 
 main {
     width: 100%;
-    padding-top: 40px;
-    padding-left: 10%;
+    padding-top: 50px;
     text-align: center;    
 }
 
-main > table {
-    width: 100%;
+.card {
+    display: inline;
 }
 
-.theme {
-    background-color: gray;
+.card > img {
+    width: 26.6%;
+    height: 400px;
+    object-fit: cover;
 }
 
+@media screen and (max-width: 600px) {
+    header > nav {
+        float: left;
+    }
+}
 
 
 footer {
     width: 100%;
     padding-top: 150px;
-    padding-left: 10%;
 }
 
 footer > table {
     float: right;
+    border-spacing: 20px;
 }
