@@ -31,31 +31,50 @@ li a:visited {
 
 body {
     font-family: futura-pt;
-    width: 90%;
+    width: 80%;
 }
 
 header {
     width: 100%;
     text-align: left;
+    padding-top: 50px;
+    padding-left: 10%;
 }
 
 #title {
     display: inline-block;
     font-size: 40px;
-    padding-left: 5%;
 }
 
 header > nav {
     font-size: 14px;
     float: right;
-    padding-right: 5%;
+    padding-top: 40px;
 }
 
 main {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
     text-align: center;    
 }
 
+main > table {
+    width: 100%;
+}
+
+.theme {
+    background-color: gray;
+}
+
+
+
 footer {
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 10%;
+}
+
+footer > table {
     float: right;
-    padding-right: 5%;
 }
